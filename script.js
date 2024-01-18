@@ -149,10 +149,3 @@ function locomotiveAnimation() {
         }, 1000); // Use the same duration as the transition
     }, 1000);
 });
-const scroll = new LocomotiveScroll({
-  // ... other options
-  smartphone: {
-      smooth: true,
-      // Adjust other mobile-specific settings as needed
-  },
-});
